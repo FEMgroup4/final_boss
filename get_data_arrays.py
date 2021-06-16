@@ -30,8 +30,6 @@ def nodes_coord():
     return sort
 
 
-nodes_fin = nodes_coord()
-
 # Функция получения списка с силами
 def forces_list():
     i = 0       # Счетчик для списка forces
@@ -52,6 +50,8 @@ def forces_list():
 
 
 forces_fin = forces_list()
+nodes_fin = nodes_coord()
+
 
 # Тестовый вывод
 def output():
